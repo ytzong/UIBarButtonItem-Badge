@@ -48,8 +48,8 @@ NSString const *UIBarButtonItem_badgeValueKey = @"UIBarButtonItem_badgeValueKey"
     self.badgeFont      = [UIFont systemFontOfSize:12.0];
     self.badgePadding   = 6;
     self.badgeMinSize   = 8;
-    self.badgeOriginX   = defaultOriginX;
-    self.badgeOriginY   = 0;
+    self.badgeOriginX   = defaultOriginX + 10;
+    self.badgeOriginY   = 2;
     self.shouldHideBadgeAtZero = YES;
     self.shouldAnimateBadge = YES;
 }
