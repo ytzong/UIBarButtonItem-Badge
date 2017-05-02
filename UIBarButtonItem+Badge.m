@@ -49,7 +49,7 @@ NSString const *UIBarButtonItem_badgeValueKey = @"UIBarButtonItem_badgeValueKey"
     self.badgePadding   = 6;
     self.badgeMinSize   = 8;
     self.badgeOriginX   = defaultOriginX;
-    self.badgeOriginY   = -4;
+    self.badgeOriginY   = 0;
     self.shouldHideBadgeAtZero = YES;
     self.shouldAnimateBadge = YES;
 }
